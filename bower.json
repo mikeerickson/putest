@@ -1,0 +1,22 @@
+{
+  "name": "putest",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mikeerickson/putest",
+  "authors": [
+    "Mike Erickson <codedungeon@gmail.com>"
+  ],
+  "description": "Laravel Testing Example",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "~2.4.1"
+  }
+}
