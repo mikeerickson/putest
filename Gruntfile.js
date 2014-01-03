@@ -76,7 +76,6 @@ module.exports = function(grunt){
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-phpunit');
-  grunt.loadNpmTasks('grunt-notify');
 
   grunt.registerTask('default',['less','cssmin']);
 };
