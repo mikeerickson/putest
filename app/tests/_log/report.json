@@ -1,0 +1,20 @@
+{
+    "event": "suiteStart",
+    "suite": "unit",
+    "tests": 1
+}{
+    "event": "testStart",
+    "suite": "unit",
+    "test": "perform actions and see result (MyUnitCept.php)"
+}{
+    "event": "test",
+    "suite": "unit",
+    "test": "perform actions and see result (MyUnitCept.php)",
+    "status": "pass",
+    "time": 0.0186550617218,
+    "trace": [
+
+    ],
+    "message": "",
+    "output": ""
+}
