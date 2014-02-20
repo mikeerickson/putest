@@ -8,3 +8,6 @@ composer.lock
 Thumbs.db
 .idea/workspace.xml
 TODO.txt
+Vagrantfile
+.vagrant/
+app/tests/_log/

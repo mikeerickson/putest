@@ -3,10 +3,10 @@
  */
 
 var gulp   = require('gulp'),
-	notify   = require('gulp-notify'),
-phpunit    = require('gulp-phpunit'),
-	 filelog = require("gulp-filelog"),
-codecept   = require('gulp-codeception');
+  notify   = require('gulp-notify'),
+  phpunit  = require('gulp-phpunit'),
+  filelog  = require("gulp-filelog"),
+  codecept = require('gulp-codeception');
 
 gulp.task('phpunit', function() {
 	var options = {notify: true, debug: true};
