@@ -11,7 +11,7 @@ var gulp   = require('gulp'),
 gulp.task('phpunit', function() {
 	var options = {notify: true, debug: true};
 	gulp.src('phpunit.xml')
-		.pipe(phpunit('', options))
+		.pipe(phpunit(options))
 		.on('error', notify.onError({
 			title: "Testing Failed",
 			message: "Error(s) occurred during testing..."
@@ -28,14 +28,16 @@ gulp.task('codecept', function() {
 		.on('error', notify.onError({
 			title: "Testing Failed",
 			message: "Error(s) occurred during test..."
-		}))
-		.pipe(notify({
-			title: "Testing Passed",
-			message: "All tests have passed..."
 		}));
+
+//		.pipe(notify({
+//			title: "Testing Passed",
+//			message: "All tests have passed..."
+//		}));
 
 });
 
+// set watch task to look for changes in test files
 gulp.task('watch', function () {
 	gulp.watch('./app/tests/**/*.php', ['phpunit','codecept']);
 });

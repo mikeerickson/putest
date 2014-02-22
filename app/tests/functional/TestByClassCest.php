@@ -16,7 +16,7 @@ class TestByClassCest
     public function testPageContainsHelloWorld(TestGuy $I) {
     	$I->wantToTest('test class method');
 		$I->amOnPage('/test');
-		$I->see('Hello World!','h2');
+		$I->see('Hello World!');
     }
 
 }

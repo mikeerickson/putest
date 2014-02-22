@@ -1,9 +1,0 @@
-[2014-02-17 20:07:56] FirstTestCept.php.INFO: am on page "/" [] []
-[2014-02-17 20:07:56] FirstTestCept.php.INFO: see "You have arrived" [] []
-[2014-02-17 20:07:56] FirstTestCept.php.INFO: PASSED [] []
-[2014-02-17 20:07:57] FirstTestCept.php.ALERT: REST module is not configured!
-
-Client for REST requests not initialized.
-Provide either PhpBrowser module, or a framework module which shares FrameworkInterface [] []
-[2014-02-17 20:07:57] FirstTestCept.php.INFO: # ERROR # [] []
-[2014-02-17 20:07:57] FirstTestCept.php.INFO: PASSED [] []
