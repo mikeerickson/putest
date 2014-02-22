@@ -2,15 +2,15 @@
   "name": "laravel-rest",
   "version": "0.0.1",
   "description": "Sample Laravel Restified Application",
-  "main": "Gruntfile.js",
+  "main": "gulpfile.js",
   "dependencies": {
     "gulp": "~3.5.2"
   },
   "devDependencies": {
-    "gulp-phpunit": "0.0.4",
-    "gulp-codeception": "0.0.1",
-    "gulp-notify": "~0.6.2",
-    "gulp-filelog": "~0.2.0"
+    "gulp-phpunit": "~0.4.0",
+    "gulp-notify": "~1.0.0-beta",
+    "gulp-filelog": "~0.2.0",
+    "gulp-codeception": "~0.4.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,5 +20,5 @@
     "url": "git@git2.eu1.frbit.com:laravel-rest.git"
   },
   "author": "",
-  "license": "BSD-2-Clause"
+  "license": "MIT"
 }

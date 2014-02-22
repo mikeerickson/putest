@@ -19,10 +19,11 @@ gulp.task('phpunit', function() {
 });
 
 gulp.task('codecept', function() {
-	var options = {notify: true, debug: true, testSuite: 'unit'};
-	gulp.src('app/tests/*.php')
+	var options = {notify: true, debug: true, skipSuites: 'api'};
+//	var options = {notify: true, debug: true, testClass: 'app/tests/functional/TestByClassCest.php'};
+	gulp.src('codeception.yml')
 		.pipe(filelog())
-		.pipe(codecept('', options))
+			.pipe(codecept('', options))
 		.on('error', notify.onError({
 			title: "Testing Failed",
 			message: "Error(s) occurred during test..."
