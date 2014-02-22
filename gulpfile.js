@@ -10,7 +10,7 @@ var gulp   = require('gulp'),
 
 gulp.task('phpunit', function() {
 	var options = {notify: true, debug: true};
-	gulp.src('app/tests/*.php')
+	gulp.src('phpunit.xml')
 		.pipe(phpunit('', options))
 		.on('error', notify.onError({
 			title: "Testing Failed",
@@ -20,6 +20,7 @@ gulp.task('phpunit', function() {
 
 gulp.task('codecept', function() {
 	var options = {notify: true, debug: true, skipSuites: 'api'};
+	var options = {notify: true, debug: true, skipSuites: ['api', 'acceptance']};
 //	var options = {notify: true, debug: true, testClass: 'app/tests/functional/TestByClassCest.php'};
 	gulp.src('codeception.yml')
 		.pipe(filelog())
@@ -34,3 +35,10 @@ gulp.task('codecept', function() {
 		}));
 
 });
+
+gulp.task('watch', function () {
+	gulp.watch('./app/tests/**/*.php', ['phpunit','codecept']);
+});
+
+// The default task (called when you run `gulp` from cli)
+gulp.task('default', ['phpunit', 'codecept', 'watch']);
