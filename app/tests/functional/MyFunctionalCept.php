@@ -2,4 +2,4 @@
 $I = new TestGuy($scenario);
 $I->wantTo('First test, see Hello World!');
 $I->amOnPage('/test');
-$I->see('Hello World!','h1');
+$I->see('Welcome To Codeception Test!','h1');

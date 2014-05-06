@@ -13,10 +13,10 @@ class TestByClassCest
     }
 
     // tests
-    public function testPageContainsHelloWorld(TestGuy $I) {
+    public function testPageContainsWelcomeMessage(TestGuy $I) {
     	$I->wantToTest('test class method');
 		$I->amOnPage('/test');
-		$I->see('Hello World!');
+		$I->see('Welcome To Codeception Test!','h1');
     }
 
 }

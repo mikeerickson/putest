@@ -1,0 +1,11 @@
+# formatter.name: pretty
+extensions:
+    - PhpSpec\Laravel\Extension\LaravelExtension
+
+suites:
+    putest:
+        namespace: 'putest'
+        spec_path: 'app/'
+        src_path: 'app/' # Comments are fine
+
+# create spec using following syntax (namespace is case-sensitive)

@@ -13,9 +13,15 @@
 
 Route::get('/', function()
 {
+//	dd(App::environment());
 	return View::make('hello');
 });
 
 Route::get('/test', function(){
-	return '<h1>Hello World!</h1>';
+	return '<h1>Welcome To Codeception Test!</h1>';
+});
+
+
+Route::group(array('prefix' => 'api/v1'), function() {
+	Route::resource('posts', 'PostsController');
 });

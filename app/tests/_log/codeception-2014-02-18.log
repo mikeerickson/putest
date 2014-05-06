@@ -1,6 +1,0 @@
-[2014-02-17 16:51:39] Codeception.ALERT: REST module is not configured!
-
-Client for REST requests not initialized.
-Provide either PhpBrowser module, or a framework module which shares FrameworkInterface [] []
-[2014-02-17 16:51:39] Codeception.INFO: # ERROR # [] []
-[2014-02-17 16:51:40] Codeception.INFO: PASSED [] []

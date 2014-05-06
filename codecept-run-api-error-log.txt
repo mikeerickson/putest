@@ -1,0 +1,43 @@
+Codeception PHP Testing Framework v2.0.0-alpha
+Powered by PHPUnit 3.7.32 by Sebastian Bergmann.
+[36m  Rebuilding ApiGuy...[0m
+
+[1mApi Tests (2) [0m---------------------------------------------------------------------
+Modules: [33mApiHelper, REST, PhpBrowser, Laravel4[0m
+-----------------------------------------------------------------------------------
+[37;41m ERROR [0m
+
+[37;41m ERROR [0m
+
+-----------------------------------------------------------------------------------
+
+
+Time: 226 ms, Memory: 13.50Mb
+
+There were 2 errors:
+
+---------
+1) Failed to Return all posts in [1mPostListingCest.testPostListingReturnsData[0m
+[37;41m                                                                                                                                                                                                          [0m
+[37;41m  [Codeception\Exception\ModuleConfig] REST module is not configured!
+
+Client for REST requests not initialized.
+Provide either PhpBrowser module, or a framework module which shares FrameworkInterface  [0m
+[37;41m                                                                                                                                                                                                          [0m
+#1  /Users/mikee/Documents/Projects/putest/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcher.php:164
+#2  /Users/mikee/Documents/Projects/putest/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcher.php:53
+
+---------
+2) Failed to Return all posts in [1mCategoriesCept.php[0m
+[37;41m                                                                                                                                                                                                          [0m
+[37;41m  [Codeception\Exception\ModuleConfig] REST module is not configured!
+
+Client for REST requests not initialized.
+Provide either PhpBrowser module, or a framework module which shares FrameworkInterface  [0m
+[37;41m                                                                                                                                                                                                          [0m
+#1  /Users/mikee/Documents/Projects/putest/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcher.php:164
+#2  /Users/mikee/Documents/Projects/putest/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcher.php:53
+
+[37;41m[2KFAILURES!
+[0m[37;41m[2KTests: 2, Assertions: 0, Errors: 2.
+[0m[2K
