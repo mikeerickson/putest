@@ -1,5 +1,6 @@
 <?php
 
+use Behat\Behat\Tester\Exception\PendingException;
 use Behat\Behat\Context\SnippetAcceptingContext;
 use Behat\Gherkin\Node\PyStringNode;
 use Behat\Gherkin\Node\TableNode;
@@ -7,7 +8,7 @@ use Behat\Gherkin\Node\TableNode;
 /**
  * Behat context class.
  */
-class Array implements SnippetAcceptingContext
+class FeatureContext implements Behat\Mink
 {
     /**
      * Initializes context.
@@ -17,5 +18,21 @@ class Array implements SnippetAcceptingContext
      */
     public function __construct()
     {
+    }
+
+    /**
+     * @Then I should see :arg1
+     */
+    public function iShouldSee($arg1)
+    {
+        throw new PendingException();
+    }
+
+    /**
+     * @Given I am on :arg1
+     */
+    public function iAmOn($arg1)
+    {
+        throw new PendingException();
     }
 }

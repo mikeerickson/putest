@@ -21,6 +21,10 @@ Route::get('/test', function(){
 	return '<h1>Welcome To Codeception Test!</h1>';
 });
 
+Route::get('/behat', function(){
+	return '<h1>Welcome To Behat Test!</h1>';
+});
+
 
 Route::group(array('prefix' => 'api/v1'), function() {
 	Route::resource('posts', 'PostsController');

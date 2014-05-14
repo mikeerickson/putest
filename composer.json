@@ -12,11 +12,7 @@
 	"require-dev": {
 		"codeception/codeception": "1.8.5",
 		"phpspec/phpspec": "2.0.*@dev",
-		"mockery/mockery": "0.9.*@dev",
-		"behat/behat": "3.0.*@dev",
-		"behat/mink": "v1.5.0",
-		"behat/mink-extension": "2.0.*@dev",
-		"behat/mink-goutte-driver": "1.0.*@dev"
+		"mockery/mockery": "0.9.*@dev"
 	},
 	"autoload": {
 		"classmap": [
