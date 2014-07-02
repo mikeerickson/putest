@@ -5,14 +5,15 @@
 	"license": "MIT",
 	"require": {
 		"laravel/framework": "4.1.*",
-		"benconstable/phpspec-laravel": "~1.0",
+		"benconstable/phpspec-laravel": "1.*@dev",
 		"way/generators": "dev-master",
 		"barryvdh/laravel-ide-helper": "1.*"
 	},
 	"require-dev": {
 		"codeception/codeception": "1.8.5",
 		"phpspec/phpspec": "2.0.*@dev",
-		"mockery/mockery": "0.9.*@dev"
+		"mockery/mockery": "0.9.*@dev",
+		"guzzlehttp/guzzle": "dev-master"
 	},
 	"autoload": {
 		"classmap": [

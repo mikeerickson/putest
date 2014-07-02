@@ -11,6 +11,8 @@
 |
 */
 
+use GuzzleHttp\Client;
+
 Route::get('/', function()
 {
 //	dd(App::environment());
@@ -19,6 +21,37 @@ Route::get('/', function()
 
 Route::get('/test', function(){
 	return '<h1>Welcome To Codeception Test!</h1>';
+});
+
+Route::get('/guzzle', function(){
+
+//	$client = new Client();
+//	$res = $client->get('https://api.github.com/user', [
+//		'auth' =>  ['mikeerickson', 'mkjbbtrsh09']
+//	]);
+//	echo $res->getStatusCode();           // 200
+//	echo $res->getHeader('content-type'); // 'application/json; charset=utf8'
+//	echo $res->getBody();                 // {"type":"User"...'
+//	var_export($res->json());             // Outputs the JSON decoded data
+
+	$queryString = Input::query();
+//	$result = [];
+//	parse_str($queryString,$result);
+	var_dump($queryString);
+
+
+//	$client = new Client();
+//	$data = ['body' => ['name' => 'ABC Company']];
+//	$res = $client->post('http://rangladex.app:8000/api/v1/companies', $data);
+//
+//	var_dump($res);
+//
+//	$id = $res->json()['id'];
+//
+//	$res = $client->delete("http://rangladex.app:8000/api/v1/companies/$id",[]);
+//	var_dump($res->json());
+//		$value = $json['id']; // this is not returning the correct value
+
 });
 
 Route::get('/behat', function(){

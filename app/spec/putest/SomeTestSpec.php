@@ -10,17 +10,20 @@ class SomeTestSpec extends LaravelObjectBehavior
     function it_is_initializable()
     {
 		$this->shouldHaveType('putest\SomeTest');
-
     }
-
-//	function it_should_access_laravel()
-//	{
-//		var_dump($this->laravel->getEnv());
-//	}
 
 	function it_should_access_laravel()
 	{
 		$value = $this->laravel->app->environment();
 	}
 
+	function it_should_say_hello_world()
+	{
+		$this->sayHelloWorld()->shouldReturn('Hello World!');
+	}
+
+	function it_should_return_testing()
+	{
+		$this->getEnvironment()->shouldBe('testing');
+	}
 }
