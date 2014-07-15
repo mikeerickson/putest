@@ -55,7 +55,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'l4-module',
+			'database'  => 'sakila',
 			'username'  => 'root',
 			'password'  => 'root',
 			'charset'   => 'utf8',

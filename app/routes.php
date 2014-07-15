@@ -60,5 +60,5 @@ Route::get('/behat', function(){
 
 
 Route::group(array('prefix' => 'api/v1'), function() {
-	Route::resource('posts', 'PostsController');
+	Route::resource('categories', 'CategoriesController');
 });

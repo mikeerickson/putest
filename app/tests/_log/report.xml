@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites>
-  <testsuite name="unit" tests="1" assertions="0" failures="0" errors="0" time="0.018655">
-    <testcase file="MyUnitCept.php" name="perform actions and see result (MyUnitCept.php)" assertions="0" time="0.018655"/>
-  </testsuite>
-</testsuites>

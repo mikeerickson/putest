@@ -8,4 +8,7 @@
 
 class_name: TestGuy
 modules:
-    enabled: [Filesystem, TestHelper, Laravel4]
+    enabled: [Filesystem, TestHelper, Laravel4, Db]
+    config:
+        Laravel4:
+            cleanup: false

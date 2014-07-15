@@ -10,8 +10,8 @@
 		"barryvdh/laravel-ide-helper": "1.*"
 	},
 	"require-dev": {
-		"codeception/codeception": "1.8.5",
-		"phpspec/phpspec": "2.0.*@dev",
+		"codeception/codeception": "dev-master",
+		"phpspec/phpspec": "dev-master",
 		"mockery/mockery": "0.9.*@dev",
 		"guzzlehttp/guzzle": "dev-master"
 	},

@@ -21,4 +21,5 @@ class PostListingCest
 		$I->seeResponseIsJson();
 		$I->seeResponseContains("success");
     }
+
 }

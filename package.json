@@ -4,14 +4,14 @@
   "description": "Sample Laravel Restified Application",
   "main": "gulpfile.js",
   "dependencies": {
-    "gulp": "^3.6.1"
+    "gulp": "^3.8.5"
   },
   "devDependencies": {
     "gulp-phpunit": "^0.5.1",
     "gulp-notify": "^1.1.1",
     "gulp-filelog": "~0.2.0",
     "gulp-codeception": "^0.4.1",
-    "gulp-phpspec": "^0.2.0"
+    "gulp-phpspec": "^0.2.5"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

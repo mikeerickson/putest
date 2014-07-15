@@ -1,17 +1,47 @@
 {
     "event": "suiteStart",
-    "suite": "unit",
-    "tests": 1
+    "suite": "functional",
+    "tests": 3
 }{
     "event": "testStart",
-    "suite": "unit",
-    "test": "perform actions and see result (MyUnitCept.php)"
+    "suite": "functional",
+    "test": "test class method (TestByClassCest::testPageContainsWelcomeMessage)"
 }{
     "event": "test",
-    "suite": "unit",
-    "test": "perform actions and see result (MyUnitCept.php)",
+    "suite": "functional",
+    "test": "test class method (TestByClassCest::testPageContainsWelcomeMessage)",
     "status": "pass",
-    "time": 0.0186550617218,
+    "time": 0.0372719764709,
+    "trace": [
+
+    ],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "functional",
+    "test": "Return all categories (TestByClassCest::it_should_return_all_categories)"
+}{
+    "event": "test",
+    "suite": "functional",
+    "test": "Return all categories (TestByClassCest::it_should_return_all_categories)",
+    "status": "pass",
+    "time": 2.11897397041,
+    "trace": [
+
+    ],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "functional",
+    "test": "First test, see Hello World! (MyFunctionalCept)"
+}{
+    "event": "test",
+    "suite": "functional",
+    "test": "First test, see Hello World! (MyFunctionalCept)",
+    "status": "pass",
+    "time": 2.15985298157,
     "trace": [
 
     ],
