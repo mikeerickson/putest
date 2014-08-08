@@ -7,11 +7,12 @@
     "gulp": "^3.8.5"
   },
   "devDependencies": {
-    "gulp-phpunit": "^0.5.1",
-    "gulp-notify": "^1.1.1",
+    "gulp-phpunit": "^0.6.3",
+    "gulp-notify": "^1.4.2",
     "gulp-filelog": "~0.2.0",
-    "gulp-codeception": "^0.4.1",
-    "gulp-phpspec": "^0.2.5"
+    "gulp-codeception": "^0.4.3",
+    "gulp-phpspec": "^0.2.5",
+    "gulp": "^3.8.7"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

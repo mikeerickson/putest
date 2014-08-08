@@ -1,50 +1,45 @@
 {
     "event": "suiteStart",
-    "suite": "functional",
-    "tests": 3
+    "suite": "acceptance",
+    "tests": 1
 }{
     "event": "testStart",
-    "suite": "functional",
-    "test": "test class method (TestByClassCest::testPageContainsWelcomeMessage)"
+    "suite": "acceptance",
+    "test": "perform actions and see result (FirstTestCept)"
 }{
-    "event": "test",
-    "suite": "functional",
-    "test": "test class method (TestByClassCest::testPageContainsWelcomeMessage)",
-    "status": "pass",
-    "time": 0.0372719764709,
-    "trace": [
-
-    ],
-    "message": "",
-    "output": ""
+    "event": "suiteStart",
+    "suite": "api",
+    "tests": 1
 }{
     "event": "testStart",
-    "suite": "functional",
-    "test": "Return all categories (TestByClassCest::it_should_return_all_categories)"
+    "suite": "api",
+    "test": "Return all posts (PostListingCest::testPostListingReturnsData)"
 }{
     "event": "test",
-    "suite": "functional",
-    "test": "Return all categories (TestByClassCest::it_should_return_all_categories)",
-    "status": "pass",
-    "time": 2.11897397041,
+    "suite": "api",
+    "test": "Return all posts (PostListingCest::testPostListingReturnsData)",
+    "status": "error",
+    "time": 0.00600910186768,
     "trace": [
+        {
+            "file": "\/Users\/mikee\/Documents\/Projects\/putest\/app\/tests\/api\/PostListingCest.php",
+            "line": 17,
+            "function": "errorHandler",
+            "class": "Codeception\\Subscriber\\ErrorHandler",
+            "type": "->",
+            "args": [
+                8,
+                "Undefined variable: scenario",
+                "\/Users\/mikee\/Documents\/Projects\/putest\/app\/tests\/api\/PostListingCest.php",
+                17,
+                {
+                    "I": {
 
+                    }
+                }
+            ]
+        }
     ],
-    "message": "",
-    "output": ""
-}{
-    "event": "testStart",
-    "suite": "functional",
-    "test": "First test, see Hello World! (MyFunctionalCept)"
-}{
-    "event": "test",
-    "suite": "functional",
-    "test": "First test, see Hello World! (MyFunctionalCept)",
-    "status": "pass",
-    "time": 2.15985298157,
-    "trace": [
-
-    ],
-    "message": "",
+    "message": "Undefined variable: scenario",
     "output": ""
 }
